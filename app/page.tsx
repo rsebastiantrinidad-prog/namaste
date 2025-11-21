@@ -49,7 +49,7 @@ export default function SistemaSandwichesBento() {
             <Zap size={18} className="text-black" fill="currentColor"/>
           </div>
           <h1 className="hidden md:block text-xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">
-            NEXUS<span className="text-zinc-500 font-thin">FOOD</span>
+            NAMASTÉ<span className="text-zinc-500 font-thin">SANDWICHES</span>
           </h1>
         </div>
         
