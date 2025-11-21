@@ -312,7 +312,8 @@ function NavButton({ active, onClick, icon, label }: { active: boolean; onClick:
       {active && <div className="absolute left-0 top-0 h-full w-1 bg-amber-400 shadow-[0_0_10px_#fbbf24]"></div>}
       
       <div className={`${active ? 'text-amber-400 drop-shadow-[0_0_5px_rgba(251,191,36,0.5)]' : 'group-hover:text-white'} transition-colors`}>
-        {React.cloneElement(icon as React.ReactElement, { size: 20, strokeWidth: active ? 2.5 : 2 })}
+        {/* CORRECCIÓN AQUÍ: Agregamos <any> para decirle a TS que confíe en nosotros */}
+        {React.cloneElement(icon as React.ReactElement<any>, { size: 20, strokeWidth: active ? 2.5 : 2 })}
       </div>
       <span className={`font-bold text-sm hidden md:block ${active ? '' : 'font-medium'}`}>{label}</span>
     </button>
