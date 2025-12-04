@@ -241,7 +241,7 @@ function DashboardModule() {
       <header className="flex flex-col md:flex-row justify-between items-end gap-4">
         <div>
           <p className="text-orange-400 font-medium text-xs uppercase mb-2 tracking-wider">Resumen Ejecutivo</p>
-          <h1 className="text-4xl md:text-5xl font-light text-white leading-none">Visión <span className="font-bold">Global</span></h1>
+          <h1 className="text-4xl md:text-5xl font-light text-white leading-none"><span className="font-bold">NAMASTÉ</span></h1>
         </div>
         <div className="text-right hidden md:block">
           <p className="text-2xl font-light text-white">08:42 <span className="text-sm font-bold text-zinc-500">AM</span></p>
